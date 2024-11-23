@@ -14,7 +14,7 @@ import "@pnotify/mobile/dist/PNotifyMobile.css";
 
 defaultModules.set(PNotifyMobile, {});
 
-const notify = (title, text, type) => {
+const notify = (title: string, text: string, type: string): void => {
   const options = { title: title, text: text };
   switch (type) {
     case "alert":

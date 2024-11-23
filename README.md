@@ -4,15 +4,35 @@
 
 ```sh
 npm install
-npm run server
-# in another tab
-npm run re:watch
+npm run dev
 ```
 
 ## Build for Production
 
 ```sh
-npm run clean
 npm run build
-npm run webpack:production
+```
+
+## Start the Production Server
+
+```sh
+npm start
+```
+
+## Development
+
+```sh
+npm run dev
+```
+
+## Linting
+
+```sh
+npm run lint
+```
+
+## Testing
+
+```sh
+npm test
 ```
